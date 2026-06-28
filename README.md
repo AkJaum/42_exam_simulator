@@ -123,7 +123,6 @@ Os testes podem emitir casos estruturados com `TRACE_CASE`. Quando isso existe, 
 Esta versao inclui exemplos suficientes para validar o fluxo:
 
 - `exam_rank_03/bracket_validator`
-- `exam_rank_03/reverse_string`
 
 ## Validacao local
 
