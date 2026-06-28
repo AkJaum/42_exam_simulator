@@ -1,0 +1,34 @@
+# Echo Validator
+
+## Assignment name
+
+echo_validator
+
+## Expected files
+
+echo_validator.py
+
+## Function
+
+def echo_validator(s: str) -> bool:
+
+A phrase is considered a palindrome if, after converting all uppercase letters to lowercase and removing all non-alphanumeric characters, it reads the same forward and backward.
+
+The function must return True if the given string is a palindrome, or False otherwise.
+
+## Examples
+
+Example 1:
+
+Input: s = "A man, a plan, a canal: Panama"
+Output: True
+
+Example 2:
+
+Input: s = "race a car"
+Output: False
+
+Example 3:
+
+Input: s = " "
+Output: True

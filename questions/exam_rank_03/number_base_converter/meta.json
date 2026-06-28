@@ -1,0 +1,11 @@
+{
+    "name": "number_base_converter",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "number_base_converter.py"
+    ],
+    "entrypoint": "number_base_converter.py",
+    "function_name": "number_base_converter",
+    "test_command": "bash tests/test.sh"
+}

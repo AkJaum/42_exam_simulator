@@ -1,0 +1,34 @@
+# Permutation Checker
+
+## Assignment name
+
+permutation_checker
+
+## Expected files
+
+permutation_checker.py
+
+## Function
+
+def permutation_checker(s: str, t: str) -> bool:
+
+Given two strings `s` and `t`, return `True` if `t` is an anagram of `s`, and `False` otherwise.
+
+An anagram is a string formed by rearranging all the characters of another string exactly once.
+
+## Examples
+
+Example 1:
+
+Input: s = "anagram", t = "nagaram"
+Output: True
+
+Example 2:
+
+Input: s = "rat", t = "car"
+Output: False
+
+Example 3:
+
+Input: s = "Listen", t = "Silent"
+Output: True

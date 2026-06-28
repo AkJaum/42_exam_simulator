@@ -1,0 +1,11 @@
+{
+    "name": "count_consecutive_digit_pairs",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "count_consecutive_digit_pairs.py"
+    ],
+    "entrypoint": "count_consecutive_digit_pairs.py",
+    "function_name": "count_consecutive_digit_pairs",
+    "test_command": "bash tests/test.sh"
+}

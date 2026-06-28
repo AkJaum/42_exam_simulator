@@ -1,0 +1,11 @@
+{
+    "name": "echo_validator",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "echo_validator.py"
+    ],
+    "entrypoint": "echo_validator.py",
+    "function_name": "echo_validator",
+    "test_command": "bash tests/test.sh"
+}

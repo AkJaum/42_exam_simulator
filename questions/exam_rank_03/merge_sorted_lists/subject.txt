@@ -1,0 +1,32 @@
+# Merge Two Sorted Lists
+
+## Assignment name
+
+merge_sorted_lists
+
+## Expected files
+
+merge_sorted_lists.py
+
+## Function
+
+def merge_sorted_lists(nums1: list[int], nums2: list[int]) -> list[int]:
+
+Given two integer lists `nums1` and `nums2`, return a new list containing all elements from both lists in sorted order.
+
+## Examples
+
+Example 1:
+
+Input: nums1 = [1, 3, 5], nums2 = [2, 4, 6]
+Output: [1, 2, 3, 4, 5, 6]
+
+Example 2:
+
+Input: nums1 = [1, 2, 4], nums2 = [1, 3, 4]
+Output: [1, 1, 2, 3, 4, 4]
+
+Example 3:
+
+Input: nums1 = [], nums2 = [0]
+Output: [0]

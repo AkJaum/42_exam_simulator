@@ -1,0 +1,11 @@
+{
+    "name": "whisper_cipher",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "whisper_cipher.py"
+    ],
+    "entrypoint": "whisper_cipher.py",
+    "function_name": "whisper_cipher",
+    "test_command": "bash tests/test.sh"
+}

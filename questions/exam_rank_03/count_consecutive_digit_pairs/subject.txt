@@ -1,0 +1,32 @@
+# Count Consecutive Digit Pairs
+
+## Assignment name
+
+count_consecutive_digit_pairs
+
+## Expected files
+
+count_consecutive_digit_pairs.py
+
+## Function
+
+def count_consecutive_digit_pairs(s: str) -> int:
+
+Given a string `s` consisting of numeric digits, return the number of adjacent digit pairs where the second digit is exactly one greater than the first digit.
+
+## Examples
+
+Example 1:
+
+Input: s = "1112233335"
+Output: 2
+
+Example 2:
+
+Input: s = "1234"
+Output: 3
+
+Example 3:
+
+Input: s = "1111"
+Output: 0

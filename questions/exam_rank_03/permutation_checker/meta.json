@@ -1,0 +1,11 @@
+{
+    "name": "permutation_checker",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "permutation_checker.py"
+    ],
+    "entrypoint": "permutation_checker.py",
+    "function_name": "permutation_checker",
+    "test_command": "bash tests/test.sh"
+}

@@ -1,0 +1,38 @@
+# Whisper Cipher
+
+## Assignment name
+
+whisper_cipher
+
+## Expected files
+
+whisper_cipher.py
+
+## Function
+
+def whisper_cipher(s: str, shift: int) -> str:
+
+Given a string `s` and an integer `shift`, return a new string where each alphabetical character is shifted by `shift` positions in the alphabet.
+
+The shift must wrap around the alphabet.
+
+Uppercase and lowercase letters must preserve their case.
+
+Non-alphabetical characters must remain unchanged.
+
+## Examples
+
+Example 1:
+
+Input: s = "Hello", shift = 3
+Output: "Khoor"
+
+Example 2:
+
+Input: s = "abc", shift = 1
+Output: "bcd"
+
+Example 3:
+
+Input: s = "Zebra!", shift = 2
+Output: "Bgdtc!"

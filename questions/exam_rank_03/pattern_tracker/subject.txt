@@ -1,0 +1,46 @@
+# Pattern Tracker
+
+## Assignment name
+
+pattern_tracker
+
+## Expected files
+
+pattern_tracker.py
+
+## Function
+
+def pattern_tracker(string: str) -> int:
+
+A string contains a rising pattern when two consecutive numeric characters are found where the second digit is exactly 1 greater than the first.
+
+Non-numeric characters must be ignored during comparison.
+
+The function must return the total count of consecutive digit pairs where the next digit is exactly 1 greater than the previous.
+
+## Examples
+
+Example 1:
+
+Input: string = "1234"
+Output: 3
+
+Example 2:
+
+Input: string = "a1b2c3"
+Output: 2
+
+Example 3:
+
+Input: string = "9876"
+Output: 0
+
+Example 4:
+
+Input: string = "135"
+Output: 0
+
+Example 5:
+
+Input: string = "abc"
+Output: 0

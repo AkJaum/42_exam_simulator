@@ -1,0 +1,11 @@
+{
+    "name": "crypto_sorter",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "crypto_sorter.py"
+    ],
+    "entrypoint": "crypto_sorter.py",
+    "function_name": "crypto_sorter",
+    "test_command": "bash tests/test.sh"
+}

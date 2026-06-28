@@ -1,0 +1,11 @@
+{
+    "name": "pattern_tracker",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "pattern_tracker.py"
+    ],
+    "entrypoint": "pattern_tracker.py",
+    "function_name": "pattern_tracker",
+    "test_command": "bash tests/test.sh"
+}

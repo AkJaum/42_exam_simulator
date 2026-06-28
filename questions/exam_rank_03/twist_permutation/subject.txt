@@ -1,0 +1,32 @@
+# Twist Permutation
+
+## Assignment name
+
+twist_permutation
+
+## Expected files
+
+twist_permutation.py
+
+## Function
+
+def twist_permutation(lst: list[int], n: int) -> list[int]:
+
+Given a list of integers `lst` and an integer `n`, return a new list where the elements are rotated to the right by `n` positions.
+
+## Examples
+
+Example 1:
+
+Input: lst = [1, 2, 3, 4, 5], n = 2
+Output: [4, 5, 1, 2, 3]
+
+Example 2:
+
+Input: lst = [1, 2, 3], n = 4
+Output: [3, 1, 2]
+
+Example 3:
+
+Input: lst = [10, 20, 30, 40], n = 0
+Output: [10, 20, 30, 40]

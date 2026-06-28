@@ -1,0 +1,11 @@
+{
+    "name": "merge_sorted_lists",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "merge_sorted_lists.py"
+    ],
+    "entrypoint": "merge_sorted_lists.py",
+    "function_name": "merge_sorted_lists",
+    "test_command": "bash tests/test.sh"
+}

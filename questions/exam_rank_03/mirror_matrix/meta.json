@@ -1,0 +1,11 @@
+{
+    "name": "mirror_matrix",
+    "language": "python",
+    "points": 25,
+    "expected_files": [
+        "mirror_matrix.py"
+    ],
+    "entrypoint": "mirror_matrix.py",
+    "function_name": "mirror_matrix",
+    "test_command": "bash tests/test.sh"
+}

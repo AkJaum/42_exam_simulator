@@ -1,0 +1,10 @@
+{
+  "name": "bracket_validator",
+  "language": "python",
+  "points": 25,
+  "required_files": ["bracket_validator.py"],
+  "entrypoint": "bracket_validator.py",
+  "function_name": "bracket_validator",
+  "test_command": "bash tests/test.sh",
+  "timeout_seconds": 10
+}
