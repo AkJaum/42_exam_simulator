@@ -1,37 +1,38 @@
-A string is said to contain a **rising pattern** when two consecutive numeric characters are found where the second digit is exactly 1 greater than the first. 
-Non-numeric characters are ignored during comparison.
+# Custom String Sort with Multiple Keys
 
-Write a function:
-```
-def pattern_tracker(string: str) -> int
-```
-The function should return the total count of consecutive digit pairs in the string where the next digit is exactly 1 greater than the previous.
+## Assignment name
 
-**Examples:**
+crypto_sorter
 
-1.
-Input: `string = "1234"`
-Output: `3`
-Explanation: Pairs `(1,2)`, `(2,3)` and `(3,4)` all have a difference of 1.
+## Expected files
 
-2.
-Input: `string = "a1b2c3"`
-Output: `2`
-Explanation: Non-numeric characters are skipped. Pairs `(1,2)` and `(2,3)` qualify.
+crypto_sorter.py
 
-3.
-Input: `string = "9876"`
-Output: `0`
-Explanation: No pair has a rising difference of exactly 1.
+## Function
 
-4.
-Input: `string = "135"`
-Output: `0`
-Explanation: Differences are 2, not 1.
+def crypto_sorter(words: list[str]) -> list[str]:
 
-5.
-Input: `string = "abc"`
-Output: `0`
-Explanation: No numeric characters found.
+Given a list of strings `words`, sort them based on the following rules:
 
-**Note:** Description based on exam logic, not a literal transcription.
+1. Sort by length of the string in ascending order.
+2. If two strings have the same length, sort by ASCII lexicographical order.
+3. If still tied, sort by the number of vowels in ascending order.
+
+The function must return the sorted list.
+
+## Examples
+
+Example 1:
+
+Input: words = ["apple", "Banana", "kiwi", "orange", "Egg"]
+Output: ["Egg", "kiwi", "apple", "Banana", "orange"]
+
+Example 2:
+
+Input: words = ["a", "bb", "ccc", "dd"]
+Output: ["a", "bb", "dd", "ccc"]
+
+Example 3:
+
+Input: words = ["abc", "acb", "bac"]
+Output: ["abc", "acb", "bac"]
